@@ -1,6 +1,14 @@
-*.pem
+# Terraform
 .terraform/
 *.tfstate
-
 *.tfstate.backup
-.terraform.lock.hcl
+*.tfvars
+.crash.log
+
+# Keys
+*.pem
+
+# OS / IDE
+.vscode/
+.idea/
+.DS_Store

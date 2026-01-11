@@ -125,3 +125,20 @@ Rôle : Rendre MySQL accessible uniquement à l’intérieur du cluster Kubernet
 - Association automatique aux pods MySQL
 
 - Utilisation d’un service non exposé à l’extérieur
+
+
+##  Déploiement de l’application
+
+Commande de déploiement :
+
+```bash
+kubectl apply -k overlays/dev
+```
+##  Vérification de l’état du cluster
+
+Après le déploiement, il est possible de vérifier l’état des ressources Kubernetes à l’aide des commandes suivantes :
+
+```bash
+kubectl get pods
+kubectl get svc
+```

@@ -15,7 +15,7 @@ L’infrastructure déployée comprend :
 
 ---
 
-##  Objectifs pédagogiques
+##  Objectifs 
 
 * Comprendre le rôle de Terraform dans un processus DevOps
 * Apprendre à découper une infrastructure en **modules Terraform**
